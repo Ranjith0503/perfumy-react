@@ -1,0 +1,96 @@
+.container{
+  
+
+  width:98vw;
+  height:100vh;
+}
+.navbar{
+  background-color: black;
+  color: rgb(151, 149, 149);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left:3%;
+  padding-right:5%;
+}
+.navbar__list li:hover{
+  color: white;
+  cursor: pointer;
+}
+.navbar__list{
+  display: flex;
+  gap:10px;
+  margin-right: 10px;
+  list-style:none;
+}
+.searchbar input{
+  height:40px;
+  width: 60%;
+  text-indent: 33px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 20%;
+}
+.box{
+  border: solid black 2px;
+  text-align: center;
+  width: 220px;
+  display: inline-block;
+  margin: 2px;
+}
+
+/* Step 23 fix image width*/
+
+img{
+  width: 220px;
+}
+
+
+/* Step 24 set hover for box*/
+.box:hover{
+  border-color: black;
+  background-color: black;
+  color: white;
+}
+
+/*Step 25 select products class and set alignment to center 
+and padding */
+.products{
+  text-align: center;
+  padding: 30px;
+}
+.para{
+  font-size: medium;
+  padding: 20px;
+  color: grey;
+}
+.about{
+  text-align: center;
+}
+
+/*Step 30 set pdding and width for p tag inside about*/
+/*Step 31 Go back to html*/
+.about p{
+  padding: 20px;
+  font-size: larger;
+ }
+
+/*Step 36 select contact and set padding*/
+
+.contact{
+  padding: 20px;
+
+}
+
+/*Step 37 select footer and set bg col and text align center*/
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .navbar__list{
+    display:none;
+  }
+}
